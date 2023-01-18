@@ -31,8 +31,13 @@
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    background: url("../img/Lupa.svg") no-repeat;
-    background-position: .75rem;
+}
+
+@media screen and (min-width: 405px) {
+    .banner__pesquisa::placeholder{
+        background: url("../img/Lupa.svg") no-repeat;
+        background-position: .75rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {

@@ -26,6 +26,6 @@ body{
     font-weight: 400;
 }
 
-button{
+span, .opcoes__item{
     cursor: pointer;
 }
